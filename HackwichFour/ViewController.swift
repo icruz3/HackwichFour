@@ -9,10 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+    @IBOutlet weak var FirstLabel: UILabel!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //we want to set firstlabel to "About"
+        self.FirstLabel.text = "About"
     }
 
 
