@@ -85,7 +85,7 @@
         <scene sceneID="gYj-Th-OIf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9GI-iV-Pbj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="8iZ-Kf-WzK"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" selectedImage="person.fill" catalog="system" id="8iZ-Kf-WzK"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1rV-sD-gvw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -120,4 +120,7 @@
             <point key="canvasLocation" x="194.20289855072465" y="147.99107142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="person.fill" catalog="system" width="64" height="60"/>
+    </resources>
 </document>
